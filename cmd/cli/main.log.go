@@ -49,7 +49,7 @@ func getEncoderLog() zapcore.Encoder {
 	return zapcore.NewJSONEncoder(encodeConfig)
 }
 func getWriteSync() zapcore.WriteSyncer {
-	file, _ := os.OpenFile("./log/log.txt", os.O_CREATE|os.O_WRONLY, os.ModePerm)
+	file, _ := os.OpenFile("./log/log.txt", os.O_CREATE|os.O_RDWR, os.ModePerm)
 	syncConsole := zapcore.AddSync(os.Stderr)
 	syncFile := zapcore.AddSync(file)
 

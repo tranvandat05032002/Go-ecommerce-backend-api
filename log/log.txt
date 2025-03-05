@@ -1,3 +1,2 @@
-{"level":"INFO","time":"2025-03-05T13:49:41.810+0700","caller":"cli/main.log.go:35","msg":"Info log","line":1}
-{"level":"ERROR","time":"2025-03-05T13:49:41.810+0700","caller":"cli/main.log.go:36","msg":"Error log","line":2}
-}
+{"level":"INFO","time":"2025-03-05T14:04:44.238+0700","caller":"cli/main.log.go:35","msg":"Info log","line":1}
+{"level":"ERROR","time":"2025-03-05T14:04:44.239+0700","caller":"cli/main.log.go:36","msg":"Error log","line":2}

@@ -1,4 +1,7 @@
+config
+log/*
 go.sum
 .idea/*
+.air.toml
 vendor
 tmp
