@@ -5,12 +5,12 @@ import (
 	"net/http"
 )
 
-type Pong struct{}
+type PongController struct{}
 
-func PongController() *Pong {
-	return &Pong{}
+func NewPongController() *PongController {
+	return &PongController{}
 }
-func (p *Pong) GetPong(c *gin.Context) {
+func (p *PongController) GetPong(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"message": "pong",
 	})
